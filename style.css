@@ -1,0 +1,44 @@
+body {
+    /* font-family: 'Chelsea Market', cursive; */
+    /* font-size: 14px; */
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+
+table {
+    /* border: 2px solid black; */
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr.header {
+    background-color: red;
+    text-decoration: underline;
+}
+
+td.distance {
+    font-weight: bold;
+}
+
+td, th {
+    padding: 5px 20px;
+    text-align: center;
+    border: 0px;
+}
+
+tr:hover {
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+td:hover {
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: all 0.5s linear;
+}
